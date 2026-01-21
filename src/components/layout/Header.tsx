@@ -37,7 +37,7 @@ export const Header: React.FC<HeaderProps> = ({
             <Sparkles className="w-5 h-5 text-white" />
           </div>
           <span className="text-lg font-bold text-foreground hidden sm:block">
-            Magic Learning
+            Magic Learning Playground
           </span>
         </div>
         
