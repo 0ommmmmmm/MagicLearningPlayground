@@ -57,13 +57,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted }) => {
             Start Learning
           </MagicButton>
           
-          <MagicButton 
-            variant="glass" 
-            size="lg"
-            icon={<ArrowLeft className="w-5 h-5" />}
-          >
-            Click Start learning to Play
-          </MagicButton>
         </div>
         
         {/* Stats */}
