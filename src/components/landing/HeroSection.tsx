@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, ArrowRight, Play } from 'lucide-react';
+import { Sparkles, ArrowRight, Play, ArrowLeft } from 'lucide-react';
 import { MagicButton } from '@/components/ui/MagicButton';
 import { FloatingElements } from './FloatingElements';
 
@@ -60,9 +60,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted }) => {
           <MagicButton 
             variant="glass" 
             size="lg"
-            icon={<Play className="w-5 h-5" />}
+            icon={<ArrowLeft className="w-5 h-5" />}
           >
-            Watch Demo
+            Click Start learning to Play
           </MagicButton>
         </div>
         
